@@ -1,3 +1,29 @@
-img{
-    fill: red;
-}
+/*
+Base Styles & Universal Elements
+*/
+
+:root{
+    /*COLORS*/
+    --emerald: #34d399;
+    --dark-emerald: #25a777;
+    --red: #dc2626;
+    --light-gray: #e4e4e7;
+    --dark-gray: #262626;
+    --almost-white: #f5f5f5;
+
+    /*FONTS*/
+    --font-primary: 'Lato', sans-serif;
+
+    /*USE CASES*/
+    --button-bg: var(--emerald);
+    --button-bg-state: var(--dark-emerald);
+    --font-color-base: var(--dark-gray);
+    --link-color: var(--dark-gray);
+    --link-color-state: var(--emerald);
+    --border-radius: 6px;}
+
+
+html{
+    height: 100%;}
+    html * {
+        box-sizing: border-box;}
