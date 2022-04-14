@@ -20,7 +20,8 @@ Base Styles & Universal Elements
     --font-color-base: var(--dark-gray);
     --link-color: var(--dark-gray);
     --link-color-state: var(--emerald);
-    --border-radius: 6px;}
+    --border-radius-small: 6px;
+    --border-radius-large: 20px;}
 
 
 html{
@@ -41,6 +42,10 @@ body{
     grid-template-areas: "sidebar header"
                          "sidebar main";}
 
+p{
+    margin: 4px 0px 18px;
+    font-size: 1.125rem;
+}
 
 /*
 Sidebar
@@ -51,11 +56,32 @@ Sidebar
 
     grid-area: sidebar;
 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: min-content;
+    gap: 46px;
+
     padding: 20px;
     background-color: var(--emerald);}
 
     #sidebar *{
         color: var(--font-color-base);}
+
+    .logo{
+        display: grid;
+        grid-template-columns: min-content 1fr;
+        align-items: center;
+        gap: 14px;
+        font-family: var(--font-primary);
+        font-size: 1.5rem;
+        font-weight: 700;}
+        .logo span{
+            font-size: 2.5rem;}
+
+    .sidebar-nav{}
+        .sidebar-nav ul{
+            margin: 0px;
+            padding: 0px;}
 
 
 /*
