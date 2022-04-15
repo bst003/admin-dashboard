@@ -263,6 +263,7 @@ Main
     display: grid;
     grid-auto-rows: min-content;
     grid-template-columns: 1fr max(280px, 25%);
+    grid-template-rows: min-content 1fr;
     column-gap: 20px;
     row-gap: 40px;
     grid-template-areas: "projects announcements"
@@ -317,9 +318,7 @@ Main
                 
 
     .trending{
-        grid-area: trending;
-
-        background: orange;}
+        grid-area: trending;}
 
 
 /*
