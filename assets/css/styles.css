@@ -285,4 +285,13 @@ Footer
 footer{
     grid-area: footer;
 
-    background-color: var(--dark-emerald);}
+    padding: 12px 0px;
+    background-color: var(--dark-emerald);
+    text-align: center;}
+    footer .wrap{
+        display: block;
+        margin: 0 auto;
+        width: min(1024px, 90%);
+    }
+    footer a{
+        color: var(--almost-white);}
