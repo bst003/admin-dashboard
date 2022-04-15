@@ -77,7 +77,7 @@ a{
         transition: all 0.3s ease-in;}
 
 input[type=search]{
-    padding: 0 12px;
+    padding: 0 16px;
     height: 38px;
     background-color: var(--light-gray);
     border-radius: var(--border-radius-large);
@@ -223,6 +223,8 @@ Header
                 align-items: center;
                 grid-template-columns: min-content 1fr;
                 gap: 24px;}
+                .search label{
+                    line-height: 1;}
 
         .header-top__right{
             display: grid;
