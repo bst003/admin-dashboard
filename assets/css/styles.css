@@ -4,8 +4,8 @@ Base Styles & Base Elements
 
 :root{
     /*COLORS*/
-    --emerald: #34d399;
-    --dark-emerald: #25a777;
+    --emerald: #10b981 ;
+    --dark-emerald: #0D9668;
     --red: #dc2626;
     --light-gray: #e4e4e7;
     --dark-gray: #262626;
@@ -141,6 +141,7 @@ Multi-Area Elements
             display: block;}
 
 .icon-link{
+    line-height: 1;
     text-decoration: none;
     font-size: var(--font-size-base);}
     .icon-link:hover,
@@ -240,7 +241,7 @@ Header
                 display: grid;
                 align-items: center;
                 grid-template-columns: min-content 1fr;
-                gap: 24px;}
+                gap: 12px;}
                 .search label{
                     line-height: 1;}
 
@@ -248,7 +249,7 @@ Header
             display: grid;
             align-items: center;
             grid-template-columns: max-content 1fr;
-            gap: 27px;}
+            gap: 32px;}
 
     .header-bottom{
         display: grid;
